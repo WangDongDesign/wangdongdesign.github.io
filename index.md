@@ -1,5 +1,7 @@
 ## 你好，这里是行动库。
 
+我的想法和你的不太一样哦。
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/WangDongDesign/wangdongdesign.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
