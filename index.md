@@ -1,6 +1,7 @@
 ## 你好，这里是行动库。
 
 我的想法和你的不太一样哦。
+![logo](image/XDK.svg)
 
 ## Welcome to GitHub Pages
 
