@@ -1,4 +1,4 @@
-![test image size](image/XDK.svg){:height="100px" width="100px"}
+![logo](image/XDK.svg){:width="400px"}
 
 
 ## 你好，这里是行动库。
