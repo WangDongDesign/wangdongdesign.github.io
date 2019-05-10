@@ -2,6 +2,18 @@
 <html>
     <head>
         <style type="text/css">
+            @font-face{
+                font-family: 'manrope-thin';
+                src : url('fonts/manrope-thin.otf');
+            }
+            @font-face{
+                font-family: 'manrope-regular';
+                src : url('fonts/manrope-regular.otf');
+            }
+            @font-face{
+                font-family: 'manrope-bold';
+                src : url('fonts/manrope-bold.otf');
+            }
             body{
                 margin: 0;
                 padding: 0;
@@ -23,6 +35,12 @@
                 color: #48A2F8;
                 text-align: center;
             }
+            .thin{
+                font-family: manrope-thin;
+            }
+            .bold{
+                font-family: manrope-bold;
+            }
         </style>
         <meta charset="UTF-8">
         <title>WangDong Design</title>
@@ -32,9 +50,9 @@
             <img src="img/xdk_white.svg" width = "400px" alt="logo" />
         </div>
         <br/><br/><br/><br/>
-        <p>WangDong Design</p>
+        <p class="bold">WangDong Design</p>
         <br/>
-        <p>A little by a little.</p>
+        <p class="thin">A little by a little.</p>
         <br/>
     </body>
 </html>
