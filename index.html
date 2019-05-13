@@ -1,73 +1,125 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-    <head>
-        <style type="text/css">
-            @font-face{
-                font-family: 'manrope-thin';
-                src : url('fonts/manrope-thin.otf');
-            }
-            @font-face{
-                font-family: 'manrope-regular';
-                src : url('fonts/manrope-regular.otf');
-            }
-            @font-face{
-                font-family: 'manrope-bold';
-                src : url('fonts/manrope-bold.otf');
-            }
-            @font-face{
-                font-family: 'playfair-bi';
-                src : url('fonts/playfair-bi.ttf');
-            }
-            
-            body{
-                margin: 0;
-                padding: 0;
-            }
-            .logo{
-                align: center;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                height: 1200px;
-                vertical-align: middle;
-                background: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
-            }
-            img{
-                background-position: 50% 50%;
-                vertical-align: middle;
-            }
-            .p{
-                color: white;
-                text-align: center;
-            }
-            .thin{
-                font-family: manrope-thin;
-                position: relative;
-                top: 10px;
-            }
-            .bold{
-                font-family: manrope-bold;
-            }
-            .playfair-bi{
-                font-family: playfair-bi;
-            }
-        </style>
-        <meta charset="UTF-8">
-        <title>WangDong.Design</title>
-    </head>
-    <body>
-        <div class="logo">
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <img src="img/xdk_white.svg" width = "400px" alt="logo" />
-            <br/><br/><br/><br/>
-            <div class="playfair-bi p" style="font-size: 32px;">WangDong.Design</div>
-            <div class="thin p" style="font-size: 32px; opacity:0.5">Nothing is difficult if you put your heart into it.</div>
-            <br/>
-        </div>
-    </body>
+
+<head>
+    <style type="text/css">
+        @font-face {
+            font-family: 'manrope-thin';
+            src: url('fonts/manrope-thin.otf');
+        }
+
+        @font-face {
+            font-family: 'manrope-regular';
+            src: url('fonts/manrope-regular.otf');
+        }
+
+        @font-face {
+            font-family: 'manrope-bold';
+            src: url('fonts/manrope-bold.otf');
+        }
+
+        @font-face {
+            font-family: 'playfair-bi';
+            src: url('fonts/playfair-bi.ttf');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+/*            height: 1200px;*/
+            vertical-align: middle;
+            background: linear-gradient(135deg, #2AFADF 10%, #4C83FF 100%);
+        }
+
+        img {
+            background-position: 50% 50%;
+            vertical-align: middle;
+        }
+
+        .p {
+            color: white;
+            text-align: center;
+        }
+
+        .thin {
+            font-family: manrope-thin;
+            position: relative;
+            top: 10px;
+        }
+
+        .bold {
+            font-family: manrope-bold;
+        }
+
+        .playfair-bi {
+            font-family: playfair-bi;
+        }
+        .button {
+            background: none;
+            width: 120px;
+            display: inline-block;
+            border-radius: 5px;
+            color: white;
+            border: 1px solid white;
+            text-align: center;
+            padding: 10px 0px;
+/*            transition: all 0.3s;*/
+            cursor: pointer;
+            margin: 10px 10px;
+            font-family: manrope-regular;
+            font-size: 16px;
+        }
+        .button span{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.4s;
+        }
+        .button:hover{
+            background: white;
+            color: #44BCF0;
+            font-family: manrope-bold;
+        }
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+/*            transition: 0.5s;*/
+        }
+        .button:hover span {
+            padding-right: 14px;
+        }
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>WangDong.Design</title>
+</head>
+
+<body>
+    <div class="logo">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <img src="img/xdk_white.svg" width="300px" alt="logo" />
+        <br /><br /><br /><br />
+        <div class="playfair-bi p" style="font-size: 32px;">WangDong.Design</div>
+        <div class="thin p" style="font-size: 32px;">Nothing is difficult if you put your heart into it.</div>
+        <br />
+        <button class="button" style="vertical-align:middle" onclick="window.location.href='./record.html'"><span>Record</span></button>
+        <button class="button" style="vertical-align:middle" onclick="window.location.href='./project.html'"><span>Project</span></button>
+        <button class="button" style="vertical-align:middle" onclick="window.location.href='./game.html'"><span>Game</span></button>
+        <button class="button" style="vertical-align:middle" onclick="window.location.href='./contact.html'"><span>Contact</span></button>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+</body>
+
 </html>
-
-
-
-
-
