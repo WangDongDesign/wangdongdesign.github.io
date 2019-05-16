@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        @font-face {
+            font-family: 'manrope-thin';
+            src: url('fonts/manrope-thin.otf');
+        }
+
+        @font-face {
+            font-family: 'manrope-regular';
+            src: url('fonts/manrope-regular.otf');
+        }
+
+        @font-face {
+            font-family: 'manrope-bold';
+            src: url('fonts/manrope-bold.otf');
+        }
+
+        @font-face {
+            font-family: 'playfair-bi';
+            src: url('fonts/playfair-bi.ttf');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .Jie{
+            height: 30px;
+            color: white;
+            background-color: rgba(255,255,255,0.15);
+            padding-top: 8px;
+            font-size: 16px;
+        }
+        .logo {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+/*            height: 1200px;*/
+            vertical-align: middle;
+            background: linear-gradient(135deg, #39DCE7 10%, #4C83FF 100%);
+        }
+
+        img {
+            background-position: 50% 50%;
+            vertical-align: middle;
+        }
+
+        .p {
+            color: white;
+            text-align: center;
+        }
+
+        .thin {
+            font-family: manrope-thin;
+            position: relative;
+            top: 10px;
+        }
+
+        .bold {
+            font-family: manrope-bold;
+        }
+
+        .playfair-bi {
+            font-family: playfair-bi;
+        }
+        .button {
+            background: none;
+            width: 120px;
+            display: inline-block;
+            border-radius: 5px;
+            color: white;
+            border: 1px solid white;
+            text-align: center;
+            padding: 10px 0px;
+/*            transition: all 0.3s;*/
+            cursor: pointer;
+            margin: 10px 10px;
+            font-family: manrope-regular;
+            font-size: 16px;
+        }
+        .button span{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.4s;
+        }
+        .button:hover{
+            background: white;
+            color: #44BCF0;
+            font-family: manrope-bold;
+        }
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+/*            transition: 0.5s;*/
+        }
+        .button:hover span {
+            padding-right: 14px;
+        }
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>阿洁专栏</title>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="Jie" onclick="window.location.href='./index.html'">
+            点击返回行栋库
+        </div>
+        <br /><br /><br /><br />
+        <img src="img/jie.svg" width="300px" alt="logo" />
+
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+</body>
+
+</html>
