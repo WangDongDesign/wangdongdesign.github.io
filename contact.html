@@ -29,17 +29,29 @@
         }
 
         .logo {
-            text-align: center;
+/*            text-align: center;*/
             margin: 0;
-            padding: 0;
-            height: 1200px;
-            vertical-align: middle;
-            background: linear-gradient(135deg, #2AFADF 10%, #4C83FF 100%);
+            padding: 0px 0 0 0;
+            height: 50px;
+/*            vertical-align: middle;*/
+            background: linear-gradient(135deg, #3FD1EA 10%, #4C83FF 100%);
+        }
+        table{
+            height: 50px;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .td_logo{
+            width: 40%;
+            padding: 7px 0 0 20px;
+            vertical-align:middle;
+        }
+        td .button{
+            float: right;
         }
 
         img {
-            background-position: 50% 50%;
-            vertical-align: middle;
+            display: inline;
         }
 
         .p {
@@ -49,8 +61,6 @@
 
         .thin {
             font-family: manrope-thin;
-            position: relative;
-            top: 10px;
         }
 
         .bold {
@@ -60,30 +70,28 @@
         .playfair-bi {
             font-family: playfair-bi;
         }
-        .button {
+        td.button {
             background: none;
-            width: 140px;
-            display: inline-block;
-            border-radius: 5px;
+            width: 15%;
+            vertical-align:middle;
+/*            display: inline-block;*/
+/*            border-radius: 5px;*/
             color: white;
-            border: 1px solid white;
+/*            border: 1px solid white;*/
             text-align: center;
-            padding: 10px 0px;
+            padding: 0px 0px;
 /*            transition: all 0.3s;*/
             cursor: pointer;
-            margin: 10px;
             font-family: manrope-regular;
             font-size: 16px;
         }
         .button span{
             cursor: pointer;
-            display: inline-block;
+/*            display: inline-block;*/
             position: relative;
             transition: 0.4s;
         }
         .button:hover{
-            background: white;
-            color: #44BCF0;
             font-family: manrope-bold;
         }
         .button span:after {
@@ -108,9 +116,15 @@
 
 <body>
     <div class="logo">
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <img src="img/xdk_white.svg" width="300px" alt="logo" />
-        <br /><br /><br /><br />
+        <table>
+            <tr>
+                <td class="td_logo" onclick="window.location.href='./index.html'"><img src="img/xdk_white.svg" width="100px" alt="logo" /></td>
+                <td class="button record" onclick="window.location.href='./record.html'"><span>Record</span></td>
+                <td class="button project" onclick="window.location.href='./project.html'"><span>Project</span></td>
+                <td class="button game" onclick="window.location.href='./game.html'"><span>Game</span></td>
+                <td class="button contact" onclick="window.location.href='./contact.html'"><span>Contact</span></td>
+            </tr>
+        </table>
     </div>
 </body>
 
