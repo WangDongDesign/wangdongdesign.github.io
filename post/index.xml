@@ -6,51 +6,56 @@
     <description>Recent content in Posts on Codesign</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wangdongdesign.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LasLengua for Babbling Kids</title>
-      <link>http://wangdongdesign.github.io/post/markdown-syntax/</link>
-      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      <link>http://wangdongdesign.github.io/post/laslengua/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://wangdongdesign.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Health Management System</title>
-      <link>http://wangdongdesign.github.io/post/emoji-support/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://wangdongdesign.github.io/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>http://wangdongdesign.github.io/post/laslengua/</guid>
+      <description>研究定义 本次研究的课题为“学龄前儿童语言学习类产品研究与设计”，旨在帮助儿童更好地进行语言发音的学习，亲子互动与游戏作为手段，能使学习过程变得生动有趣。
+当前学龄前儿童教育市场受到巨大重视。联合国人口数据预测，中国将处在第四次婴儿潮阶段，每年新增人口数量平均超过1600万，这会极大地带动儿童消费市场的发展。体验经济时代下，消费者需求提高。大量开发者的涌入使得卖方市场正式转变为买方市场，学龄前儿童教育产品从此需将用户体验的革新提上日程。技术的发展使游戏性学习方式成为可能。“要在幼儿的一日生活中有效地运用现代化教育手段”，有益于开拓思维领域，提高分析、综合能力。
+本次研究依照以下双钻模型，开展“探索-定义-发现-执行”的研究与设计流程。
+  国内外研究现状 儿童语言学习理论经历过这些发展：行为主义-刺激-反应联结说，乔姆斯基-先天语言能力（低估了环境在语言习得中的作用），皮亚杰-认知论（强调儿童语言发展与儿童所处环境的关系），功能语言学派韩礼德-语言学习植根于儿童对他人交流意图的理解、对共同视注意的敏感以及模仿语言的愿望。
+影响儿童语言学习的因素包括智力因素、认知水平和语言环境。儿童产品理论研究主要集中在儿童感官、儿童行为与教育、儿童情感与体验、儿童市场等方面。
+ 市场与竞品分析 儿童语言学习类产品处在学前教育生态圈中，并占据较为重要的地位。如图展示，学前教育生态圈以学前儿童和家长为中心，其产品和服务提供者包括园所机构/早教中心、培训机构（线上及线下）、教育出版传媒企业、玩/教具企业和教育信息化企业。
+对于相关的竞品，我们从产品形式和教学内容两个维度进行分类，并总结提取优缺点，进行取舍。
+   （教学内容） 电子产品 实体玩具     （字词发音类） Speak Up Too、悟空拼音 识字卡片游戏、双语记忆棋   （整句表达类） 宝宝巴士、凯叔讲故事 巧虎绘本、看图说话卡片   （情境交流类） 火火兔、NaturLing儿童教育机器人 故事桌游、角色扮演游戏      用户调研 本次调研我们选择2-4岁的学龄前儿童和他们的家庭为主要调研群体，通过微信、微博等社交媒体进行用户招募。招募对象按语言能力分为能说叠词的亲子和能说完整长句的亲子。此次访谈能说叠词用户招募了2名（1男1女），能说完整句子的用户招募了8名（6男2女）。访谈对象年龄覆盖2-4岁，地区为上海、沈阳两地。采用观察法和访谈法，进行用户的数据采集调研。调研期间，对儿童及父辈、祖父辈的详细情况进行录入工作，以下为部分数据的截图。
+  经过前期调研发现，家长对于 APP 类产品普遍没有较高的期待，原因主要有：APP 与孩子之间没有很强的互动性， APP 很大程度为了用来代替自己陪伴孩子，家长都会让孩子尽量少地接触电子屏幕。接下来，我们在访谈对象中选择了三种实体游戏来作为我们的流程分析，这三种实体类游戏分别是卡片识字、讲故事、玩情景游戏，并制作了 Journey Map。
+    用户画像 据之前用户的性格特征以及他们在语言学习过程中所关注的需求的分析，基于 censydiam 模型，总结出以 “让孩子按自己想法玩 - 让孩子按规则玩” 和 “让孩子一个人玩 - 和孩子一起玩” 为双维度的 4 类典型人群，分别为民主互动、平和守序、放任自在和理性自立。将抽象出的典型特征和适当的思维发散补充，我们得到以下 4 类典型父母与孩童的用户画像。</description>
     </item>
     
     <item>
       <title>PillBox - Smart and Reliable</title>
-      <link>http://wangdongdesign.github.io/post/first-post/</link>
-      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      <link>http://wangdongdesign.github.io/post/pillbox/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://wangdongdesign.github.io/post/first-post/</guid>
-      <description>My first post using @narative/gatsby-theme-novela. Novela is built by the team at Narative, and built for everyone that loves the web.
-Headers It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
-Emphasis, aka italics, with asterisks or underscores.
-Strong emphasis, aka bold, with asterisks or underscores.
-Combined emphasis with asterisks and underscores.
-Strikethrough uses two tildes. Scratch this.</description>
+      <guid>http://wangdongdesign.github.io/post/pillbox/</guid>
+      <description>                  </description>
+    </item>
+    
+    <item>
+      <title>Health Management System</title>
+      <link>http://wangdongdesign.github.io/post/zhitang/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://wangdongdesign.github.io/post/zhitang/</guid>
+      <description>智糖慢病管理平台，专为糖尿病视网膜病变（DR）患者设计，便于医生及时了解和跟踪患者的档案信息和就诊情况，并结合AI诊疗技术，大大提高了就医效率和治疗成效。
+       </description>
     </item>
     
     <item>
       <title>IAmSecret AR Game</title>
-      <link>http://wangdongdesign.github.io/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <link>http://wangdongdesign.github.io/post/iamsecret/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://wangdongdesign.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
+      <guid>http://wangdongdesign.github.io/post/iamsecret/</guid>
+      <description>IAmSecret 是一款融合 AR 沉浸式体验的推理断案游戏，借助 AR 搭建起案件实景，玩家可以进入不同的区域进行搜证，实景交互式体验更好地帮助玩家了解剧情和融入游戏角色，给与玩家身临其境的游戏感受。
+      </description>
     </item>
     
   </channel>

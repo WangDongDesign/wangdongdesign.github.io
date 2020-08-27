@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codesign</title>
-    <link>http://wangdongdesign.github.io/</link>
-    <description>Recent content on Codesign</description>
+    <title>Wang Dong on Codesign</title>
+    <link>http://wangdongdesign.github.io/authors/wang-dong/</link>
+    <description>Recent content in Wang Dong on Codesign</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://wangdongdesign.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://wangdongdesign.github.io/authors/wang-dong/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
